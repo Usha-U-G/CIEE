@@ -14,6 +14,7 @@ class Child extends Parent {
 
 public class Inheritance {
     public static void main(String[] args) {
+        System.out.println("I am inside main class");
         Child c = new Child();
         c.displayP();
         c.displayC();
